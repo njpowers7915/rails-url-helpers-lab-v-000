@@ -17,7 +17,6 @@ class StudentsController < ApplicationController
         @student.active = false
     end
     @student.save
-    erb :show.html
   end
 
 
